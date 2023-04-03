@@ -333,7 +333,7 @@ public class Javaquestions {
 
                 String databaseName="onlinequiz";
                 String databaseUser="root";
-                String databasePassword="Kiruthiyaa2004##";
+                String databasePassword="";
                 String url="jdbc:mysql://localhost/"+databaseName;
 
                 Class.forName("com.mysql.cj.jdbc.Driver");
