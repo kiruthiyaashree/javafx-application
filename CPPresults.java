@@ -27,7 +27,7 @@ public class CPPresults {
         //code to be written
         String databaseName="onlinequiz";
         String databaseUser="root";
-        String databasePassword="Kiruthiyaa2004##";
+        String databasePassword="";
         String url="jdbc:mysql://localhost/"+databaseName;
         ResultSet resultSet=null,resultSet1=null;
         String se,se1;
