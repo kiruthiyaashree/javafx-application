@@ -38,7 +38,7 @@ public class Resultofc {
     void display_action2(ActionEvent event) throws IOException {
         String databaseName="onlinequiz";
         String databaseUser="root";
-        String databasePassword="Kiruthiyaa2004##";
+        String databasePassword="";
         String url="jdbc:mysql://localhost/"+databaseName;
         ResultSet is1=null;
         String me;
