@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="519.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinequiz.Resultofjava">
+    <children>
+      <ImageView fitHeight="528.0" fitWidth="937.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resy.jpeg" />
+         </image></ImageView>
+      <Button fx:id="backbutton" layoutX="872.0" layoutY="482.0" mnemonicParsing="false" onAction="#handler_back" text="BACK" />
+      <Button fx:id="button_showresult" layoutX="763.0" layoutY="482.0" mnemonicParsing="false" onAction="#handler_showresult" text="SHOW RESULT" />
+      <Label fx:id="showresult_label" layoutX="397.0" layoutY="203.0" text="THE  RESULT IS ">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font></Label>
+    </children>
+</AnchorPane>

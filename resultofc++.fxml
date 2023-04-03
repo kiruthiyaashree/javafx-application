@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="556.0" prefWidth="985.0" styleClass="rootone" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinequiz.CPPresults">
+   <children>
+      <ImageView fitHeight="624.0" fitWidth="987.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resy.jpeg" />
+         </image></ImageView>
+      <AnchorPane layoutX="284.0" layoutY="135.0" prefHeight="362.0" prefWidth="700.0">
+         <children>
+            <Label fx:id="label_res" layoutX="151.0" layoutY="91.0" text="THE RESULT IS">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_display" layoutX="513.0" layoutY="375.0" mnemonicParsing="false" onAction="#actiondisplay" text="SHOW RESULT">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </Button>
+            <Button fx:id="back_button" layoutX="625.0" layoutY="375.0" mnemonicParsing="false" onAction="#actionback" text="BACK">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

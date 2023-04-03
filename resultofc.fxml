@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="580.0" prefWidth="1026.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinequiz.Resultofc">
+   <children>
+      <ImageView fitHeight="272.0" fitWidth="991.0" layoutX="-11.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="611.0" fitWidth="1025.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resy.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="166.0" layoutY="225.0" prefHeight="354.0" prefWidth="848.0">
+         <children>
+            <Label fx:id="display_label1" layoutX="283.0" layoutY="14.0" text="THE RESULT IS" textFill="#100d0d">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="display_button2" layoutX="682.0" layoutY="308.0" mnemonicParsing="false" onAction="#display_action2" text="SHOW RESULT" />
+            <Button fx:id="backhandler" layoutX="786.0" layoutY="308.0" mnemonicParsing="false" onAction="#backofanaction" text="BACK" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

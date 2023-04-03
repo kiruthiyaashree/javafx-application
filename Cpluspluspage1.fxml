@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="618.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinequiz.Cpluspluspage1">
+    <children>
+        <Pane layoutX="-10.0" prefHeight="618.0" prefWidth="939.0">
+            <children>
+                <Pane layoutX="14.0" prefHeight="611.0" prefWidth="923.0">
+                    <children>
+                        <Label layoutX="9.0" layoutY="233.0" text="1. C++ does not support?">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                        </Label>
+                        <RadioButton fx:id="q1r1" layoutX="48.0" layoutY="270.0" mnemonicParsing="false" text="Multilevel">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg1" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="q1r2" layoutX="193.0" layoutY="270.0" mnemonicParsing="false" text="Hierarchical inheritance" toggleGroup="$tg1">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton fx:id="q1r4" layoutX="704.0" layoutY="264.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="147.0" text="None of the above" toggleGroup="$tg1">
+                            <font>
+                                <Font size="15.0" />
+                            </font></RadioButton>
+                        <RadioButton fx:id="q1r3" layoutX="469.0" layoutY="270.0" mnemonicParsing="false" text="Hybrid inheritance" toggleGroup="$tg1">
+                            <font>
+                                <Font size="15.0" />
+                            </font></RadioButton>
+                        <Label layoutX="30.0" layoutY="83.0">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="11.0" layoutY="306.0" prefHeight="25.0" prefWidth="165.0" text="2. Who invented C++?">
+                            <font>
+                                <Font size="16.0" />
+                            </font></Label>
+                        <RadioButton fx:id="q2r1" layoutX="34.0" layoutY="344.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="131.0" text="Dennis Ritchie">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg2" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="q2r2" layoutX="228.0" layoutY="344.0" mnemonicParsing="false" text="Ken Thompson" toggleGroup="$tg2">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton fx:id="q2r3" layoutX="412.0" layoutY="344.0" mnemonicParsing="false" text="Brian Kernighan" toggleGroup="$tg2">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton fx:id="q2r4" layoutX="610.0" layoutY="344.0" mnemonicParsing="false" text="Bjarne Stroustrup" toggleGroup="$tg2">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton fx:id="q3r1" layoutX="42.0" layoutY="419.0" mnemonicParsing="false" text="/comment/">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg3" />
+                     </toggleGroup></RadioButton>
+                        <RadioButton fx:id="q3r2" layoutX="186.0" layoutY="419.0" mnemonicParsing="false" text="//comment*/" toggleGroup="$tg3">
+                            <font>
+                                <Font size="15.0" />
+                            </font></RadioButton>
+                        <RadioButton fx:id="q3r3" layoutX="354.0" layoutY="419.0" mnemonicParsing="false" text="//comment" toggleGroup="$tg3">
+                            <font>
+                                <Font size="15.0" />
+                            </font></RadioButton>
+                        <RadioButton fx:id="q3r4" layoutX="511.0" layoutY="419.0" mnemonicParsing="false" text="both //comment or /comment/" toggleGroup="$tg3">
+                            <font>
+                                <Font size="15.0" />
+                            </font></RadioButton>
+                        <Label layoutX="10.0" layoutY="377.0" text="3. Which of the following is used for comments in C++ ?">
+                            <font>
+                                <Font size="16.0" />
+                            </font></Label>
+                        <Label layoutX="1.0" layoutY="452.0" text="4. Which of the following user_defined header file extension used in c++?">
+                            <font>
+                                <Font size="16.0" />
+                            </font></Label>
+                        <RadioButton fx:id="q4r1" layoutX="37.0" layoutY="488.0" mnemonicParsing="false" text="hg">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg4" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="q4r2" layoutX="135.0" layoutY="488.0" mnemonicParsing="false" text="h" toggleGroup="$tg4">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton fx:id="q4r3" layoutX="209.0" layoutY="488.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="51.0" text="cpp" toggleGroup="$tg4">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton fx:id="q4r4" layoutX="292.0" layoutY="488.0" mnemonicParsing="false" text="hf" toggleGroup="$tg4">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <Label layoutX="7.0" layoutY="523.0" text="5.Which of the following is a correct identifier in C++?">
+                            <font>
+                                <Font size="16.0" />
+                            </font></Label>
+                        <RadioButton fx:id="q5r1" layoutX="34.0" layoutY="560.0" mnemonicParsing="false" text="VAR_1234">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg5" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="q5r2" layoutX="186.0" layoutY="560.0" mnemonicParsing="false" text="\$var_name" toggleGroup="$tg5">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton fx:id="q5r3" layoutX="336.0" layoutY="562.0" mnemonicParsing="false" text="7VARNAME" toggleGroup="$tg5">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton fx:id="q5r4" layoutX="503.0" layoutY="560.0" mnemonicParsing="false" text="7var_name" toggleGroup="$tg5">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </RadioButton>
+                        <Button fx:id="cpluspluspage2button" layoutX="807.0" layoutY="573.0" mnemonicParsing="false" onAction="#cpluspluspage2" text="NEXT" />
+                        <Button fx:id="sspbackbutton" layoutX="863.0" layoutY="573.0" mnemonicParsing="false" onAction="#ssphandler" text="BACK" />
+                  <ImageView fitHeight="227.0" fitWidth="977.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bvr.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="388.0" layoutY="145.0" text="C++ LANGUAGE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="23.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </Pane>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

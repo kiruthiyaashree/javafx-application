@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinequiz.Cpluspluspage2">
+    <children>
+        <Pane layoutX="3.0" layoutY="3.0" prefHeight="578.0" prefWidth="916.0" style="-fx-background-color: white;">
+            <children>
+                <Label layoutX="18.0" layoutY="48.0" text="6. Which of the following is the correct syntax to print the message in c++ language ?">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <RadioButton fx:id="q6r1" layoutX="85.0" layoutY="101.0" mnemonicParsing="false" text="cout&lt;&lt;&quot;Hello world&quot;;">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg6" />
+               </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="q6r2" layoutX="288.0" layoutY="101.0" mnemonicParsing="false" text="Cout&lt;&lt;Hello world;" toggleGroup="$tg6">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="q6r3" layoutX="478.0" layoutY="101.0" mnemonicParsing="false" text="out&lt;&lt;&quot;Hello world&quot;;" toggleGroup="$tg6">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="q6r4" layoutX="673.0" layoutY="101.0" mnemonicParsing="false" text="None of the above" toggleGroup="$tg6">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <Label layoutX="16.0" layoutY="148.0" text="7. Which of the following is the address operator?">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <RadioButton fx:id="q7r1" layoutX="83.0" layoutY="194.0" mnemonicParsing="false" text="\@">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg7" />
+               </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="q7r2" layoutX="196.0" layoutY="194.0" mnemonicParsing="false" text="#" toggleGroup="$tg7">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="q7r3" layoutX="293.0" layoutY="194.0" mnemonicParsing="false" text="&amp;" toggleGroup="$tg7">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="q7r4" layoutX="374.0" layoutY="194.0" mnemonicParsing="false" text="\%" toggleGroup="$tg7">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                <Label layoutX="18.0" layoutY="233.0" text="8.The programming language that has the ability to create new data types is called?">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <RadioButton fx:id="q8r1" layoutX="82.0" layoutY="278.0" mnemonicParsing="false" text="Overloaded">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg8" />
+               </toggleGroup></RadioButton>
+                <RadioButton fx:id="q8r2" layoutX="228.0" layoutY="278.0" mnemonicParsing="false" text="Encapsulated" toggleGroup="$tg8">
+                    <font>
+                        <Font size="15.0" />
+                    </font></RadioButton>
+                <RadioButton fx:id="q8r3" layoutX="418.0" layoutY="278.0" mnemonicParsing="false" text="Reprehensible" toggleGroup="$tg8">
+                    <font>
+                        <Font size="15.0" />
+                    </font></RadioButton>
+                <RadioButton fx:id="q8r4" layoutX="636.0" layoutY="278.0" mnemonicParsing="false" text="Extensible" toggleGroup="$tg8">
+                    <font>
+                        <Font size="15.0" />
+                    </font></RadioButton>
+                <Label layoutX="15.0" layoutY="318.0" text="9.C++ is a type of language?">
+                    <font>
+                        <Font size="16.0" />
+                    </font></Label>
+                <Label layoutX="16.0" layoutY="413.0" text="10. Which one of the following reperesents the tab?">
+                    <font>
+                        <Font size="16.0" />
+                    </font></Label>
+                <RadioButton fx:id="q9r1" layoutX="82.0" layoutY="360.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="174.0" text="High-level language">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg9" />
+               </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="q9r2" layoutX="273.0" layoutY="360.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="188.0" text="Low-level language" toggleGroup="$tg9">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="q9r3" layoutX="458.0" layoutY="360.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="188.0" text="Middle-level language" toggleGroup="$tg9">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="q9r4" layoutX="691.0" layoutY="360.0" mnemonicParsing="false" text="None of the above" toggleGroup="$tg9">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                <RadioButton fx:id="q10r1" layoutX="83.0" layoutY="453.0" mnemonicParsing="false" text="\\n">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="tg10" />
+               </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="q10r2" layoutX="191.0" layoutY="453.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="45.0" text="\\t" toggleGroup="$tg10">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="q10r3" layoutX="329.0" layoutY="453.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="45.0" text="\\r" toggleGroup="$tg10">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <RadioButton fx:id="q10r4" layoutX="432.0" layoutY="453.0" mnemonicParsing="false" text="None of the above" toggleGroup="$tg10">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </RadioButton>
+                <Button fx:id="cplusQbackbutton" layoutX="836.0" layoutY="523.0" mnemonicParsing="false" onAction="#cplusQbackaction" text="BACK" />
+            <Button fx:id="Submit_button" layoutX="766.0" layoutY="523.0" mnemonicParsing="false" onAction="#handler_submit" text="SUBMIT" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

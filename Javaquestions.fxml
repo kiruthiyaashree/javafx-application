@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane prefHeight="556.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinequiz.Javaquestions">
+
+          <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1818.0" prefWidth="906.0">
+                  <children>
+                      <Label layoutX="10.0" layoutY="233.0" prefWidth="592.0" text="1   Who is known as father of Java Programming Language?">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                  </Label>
+                      <RadioButton fx:id="q1r1" layoutX="126.0" layoutY="272.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="150.0" text="James Gosung">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg1" />
+                     </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q1r2" layoutX="126.0" layoutY="301.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="125.0" text="Charel Barrage" toggleGroup="$tg1">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q1r3" layoutX="126.0" layoutY="331.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="111.0" text="M. P Java" toggleGroup="$tg1">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q1r4" layoutX="126.0" layoutY="360.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="103.0" text="Blais Pascal" toggleGroup="$tg1">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <Label layoutX="12.0" layoutY="390.0" text="2   In java control statements break, continue, return, try-catch-finally and assert belongs to?">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                      </Label>
+                      <RadioButton fx:id="q2r1" layoutX="127.0" layoutY="426.0" mnemonicParsing="false" text="Selection statement">
+                          <font>
+                              <Font size="15.0" />
+                          </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg2" />
+                     </toggleGroup>
+                  </RadioButton>
+                      <RadioButton fx:id="q2r2" layoutX="127.0" layoutY="456.0" mnemonicParsing="false" text="Transfer statements" toggleGroup="$tg2">
+                          <font>
+                              <Font size="15.0" />
+                          </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q2r3" layoutX="129.0" layoutY="485.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="139.0" text="Loop statements" toggleGroup="$tg2">
+                          <font>
+                              <Font size="15.0" />
+                          </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q2r4" layoutX="128.0" layoutY="514.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="161.0" text="Pause statements" toggleGroup="$tg2">
+                          <font>
+                              <Font size="15.0" />
+                          </font>
+                  </RadioButton>
+                      <Label layoutX="10.0" layoutY="546.0" text="3   Which provides runtime environment for java byte code to be executed?">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                  </Label>
+                      <RadioButton fx:id="q3r1" layoutX="131.0" layoutY="582.0" mnemonicParsing="false" text="JDK">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg3" />
+                     </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q3r3" layoutX="131.0" layoutY="640.0" mnemonicParsing="false" text="JVM" toggleGroup="$tg3">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q3r2" layoutX="132.0" layoutY="610.0" mnemonicParsing="false" text="JRE" toggleGroup="$tg3">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q3r4" layoutX="131.0" layoutY="668.0" mnemonicParsing="false" text="JAVAC" toggleGroup="$tg3">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <Label layoutX="9.0" layoutY="698.0" text="4   Which of the following are not java keywords ?">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                      </Label>
+                      <RadioButton fx:id="q4r1" layoutX="129.0" layoutY="732.0" mnemonicParsing="false" text="Double">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg4" />
+                     </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q4r2" layoutX="129.0" layoutY="760.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="83.0" text="Then" toggleGroup="$tg4">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q4r3" layoutX="129.0" layoutY="788.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="71.0" text="Switch" toggleGroup="$tg4">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q4r4" layoutX="129.0" layoutY="817.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="112.0" text="InstanceOf" toggleGroup="$tg4">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <Label layoutX="5.0" layoutY="848.0" text="5   Which of the operators is used to allocate memory to array variable in java ?">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                      </Label>
+                      <RadioButton fx:id="q5r1" layoutX="127.0" layoutY="886.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="62.0" text="alloc">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg5" />
+                     </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q5r2" layoutX="129.0" layoutY="914.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="127.0" text="new malloc" toggleGroup="$tg5">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q5r3" layoutX="128.0" layoutY="947.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="85.0" text="malloc" toggleGroup="$tg5">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q5r4" layoutX="129.0" layoutY="977.0" mnemonicParsing="false" text="new" toggleGroup="$tg5">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <Label layoutX="7.0" layoutY="1008.0" text="6   Which one is a template for creating different objects ?">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                      </Label>
+                      <RadioButton fx:id="q6r1" layoutX="127.0" layoutY="1043.0" mnemonicParsing="false" text="An Array">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg6" />
+                     </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q6r2" layoutX="127.0" layoutY="1072.0" mnemonicParsing="false" text="Interface" toggleGroup="$tg6">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q6r3" layoutX="129.0" layoutY="1102.0" mnemonicParsing="false" text="A class" toggleGroup="$tg6">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q6r4" layoutX="129.0" layoutY="1130.0" mnemonicParsing="false" text="Method" toggleGroup="$tg6">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <Label layoutX="10.0" layoutY="1159.0" text="7   Which symbol is used to contain the values of automatically initialized arrays ?">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                      </Label>
+                      <RadioButton fx:id="q7r1" layoutX="129.0" layoutY="1193.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="86.0" text="Brackets">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg7" />
+                     </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q7r2" layoutX="130.0" layoutY="1255.0" mnemonicParsing="false" text="Paranthesis" toggleGroup="$tg7">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q7r3" layoutX="130.0" layoutY="1224.0" mnemonicParsing="false" text="Braces" toggleGroup="$tg7">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q7r4" layoutX="130.0" layoutY="1283.0" mnemonicParsing="false" text="Comma" toggleGroup="$tg7">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <Label layoutX="11.0" layoutY="1311.0" text="8   Which of these have highest precedence ?">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                      </Label>
+                      <RadioButton fx:id="q8r1" layoutX="131.0" layoutY="1349.0" mnemonicParsing="false" text="()">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg8" />
+                     </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q8r2" layoutX="133.0" layoutY="1380.0" mnemonicParsing="false" text="*" toggleGroup="$tg8">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q8r3" layoutX="134.0" layoutY="1408.0" mnemonicParsing="false" text="++" toggleGroup="$tg8">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q8r4" layoutX="135.0" layoutY="1439.0" mnemonicParsing="false" text="&gt;&gt;" toggleGroup="$tg8">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <Label layoutX="15.0" layoutY="1469.0" text="9   Which of these is returned by operator '&amp;' ?">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                      </Label>
+                      <RadioButton fx:id="q9r1" layoutX="133.0" layoutY="1502.0" mnemonicParsing="false" text="Integer">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg9" />
+                     </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q9r2" layoutX="133.0" layoutY="1530.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="99.0" text="Character" toggleGroup="$tg9">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q9r3" layoutX="134.0" layoutY="1560.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="60.0" text="Float" toggleGroup="$tg9">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q9r4" layoutX="132.0" layoutY="1588.0" mnemonicParsing="false" text="Boolean" toggleGroup="$tg9">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <Label layoutX="7.0" layoutY="1617.0" text="10  Data type long literals are appended by ___________">
+                          <font>
+                              <Font size="16.0" />
+                          </font>
+                      </Label>
+                      <RadioButton fx:id="q10r1" layoutX="131.0" layoutY="1654.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="134.0" text="Uppercase L">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tg10" />
+                     </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font>
+                  </RadioButton>
+                      <RadioButton fx:id="q10r2" layoutX="129.0" layoutY="1683.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="187.0" text="Lowercase L" toggleGroup="$tg10">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q10r3" layoutX="129.0" layoutY="1713.0" mnemonicParsing="false" text="Long" toggleGroup="$tg10">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <RadioButton fx:id="q10r4" layoutX="128.0" layoutY="1742.0" mnemonicParsing="false" text="Both A and B" toggleGroup="$tg10">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+                      <Button fx:id="backbutton" layoutX="838.0" layoutY="1778.0" mnemonicParsing="false" onAction="#handler" text="BACK" />
+                      <Button fx:id="Submit_button" layoutX="765.0" layoutY="1778.0" mnemonicParsing="false" onAction="#handler_submit" text="SUBMIT" />
+            <ImageView fitHeight="383.0" fitWidth="908.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bvr.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="353.0" layoutY="137.0" text="JAVA  LANGUAGE">
+               <font>
+                  <Font name="Century Gothic Bold" size="23.0" />
+               </font>
+            </Label>
+                  </children>
+            </AnchorPane>
+          </content>
+      </ScrollPane>

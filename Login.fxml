@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane opacity="0.97" prefHeight="511.0" prefWidth="932.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinequiz.Login">
+    <children>
+      <ImageView fitHeight="680.0" fitWidth="931.0" layoutX="1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WhatsApp%20Image%202023-01-28%20at%2011.52.45%20PM.jpeg" />
+         </image></ImageView>
+        <Pane layoutX="223.0" layoutY="150.0" prefHeight="320.0" prefWidth="491.0">
+            <children>
+                <SubScene height="6.0" layoutX="388.0" layoutY="278.0" width="3.0">
+                    <root>
+                        <Region />
+                    </root>
+                </SubScene>
+            <Label layoutX="26.0" layoutY="267.0" prefHeight="32.0" prefWidth="180.0" text="NOT HAVE AN ACCOUNT?">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+          <Label layoutX="309.0" layoutY="281.0" prefHeight="26.0" prefWidth="70.0" text="USERNAME">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+          <TextField fx:id="tf_username" layoutX="485.0" layoutY="282.0" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: lightgrey;" />
+          <PasswordField fx:id="pf_password" layoutX="485.0" layoutY="342.0" style="-fx-background-color: lightgrey;" />
+          <Button fx:id="signupaction" layoutX="454.0" layoutY="424.0" mnemonicParsing="false" onAction="#signuphandler" prefHeight="32.0" prefWidth="70.0" style="-fx-cursor: hand;" text="Signup" />
+          <Label layoutX="552.0" layoutY="427.0" prefHeight="25.0" prefWidth="15.0" text="or" />
+          <Button fx:id="sectionAction" layoutX="590.0" layoutY="424.0" mnemonicParsing="false" onAction="#sectionhandler" prefHeight="32.0" prefWidth="81.0" style="-fx-cursor: hand;" text="Login" />
+          <Label layoutX="309.0" layoutY="342.0" prefHeight="26.0" prefWidth="104.0" text="PASSWORD">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+          <Pane layoutX="290.0" layoutY="178.0" prefHeight="48.0" prefWidth="389.0" style="-fx-background-color: LIGHTGREY;">
+         <children>
+                  <Label alignment="CENTER" layoutX="-59.0" layoutY="3.0" prefHeight="42.0" prefWidth="508.0" text="ONLINE QUIZ MANAGEMENT SYSTEM" wrapText="true">
+                      <font>
+                          <Font name="Bell MT Bold" size="15.0" />
+                      </font>
+                  </Label>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
